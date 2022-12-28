@@ -7,6 +7,7 @@
   <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>  
   <script async custom-element="amp-base-carousel" src="https://cdn.ampproject.org/v0/amp-base-carousel-0.1.js"></script>
   <script async custom-element="amp-facebook-page" src="https://cdn.ampproject.org/v0/amp-facebook-page-0.1.js"></script>
+<script async custom-element="amp-audio" src="https://cdn.ampproject.org/v0/amp-audio-0.1.js"></script>
     <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
    <title>Hello, amp-story</title>
     <link rel="canonical" href="http://example.ampproject.org/my-story.html" />
@@ -162,7 +163,9 @@ a {
   <amp-img src="https://source.unsplash.com/QrgRXH81DXk/600x400" width="600" height="400" layout="responsive"></amp-img>
   <amp-img src="https://source.unsplash.com/8QJSi37vhms/600x400" width="600" height="400" layout="responsive"></amp-img>
 </amp-base-carousel>
-
+<amp-audio src="https://storage.googleapis.com/media-session/sintel/snow-fight.mp3" artwork="https://storage.googleapis.com/media-session/sintel/artwork-512.png" title="Snow Fight" album="Jan Morgenstern" artist="Sintel" height="50" width="auto" controls>
+  <div fallback>Your browser doesn’t support HTML5 audio</div>
+</amp-audio>
    <h1 id="hello">Hello AMPHTML World!</h1>
     <P>Manish Kumar Netam </p>
 <amp-facebook-page width="552" height="310" layout="responsive" data-tabs="timeline, events" data-href="https://www.facebook.com/manishnetamofficial/">
